@@ -25,8 +25,8 @@
                 $('#content').css('color', color1);
                 $('#colorType').text(colorType);
                 $('#changeColorButton').on('click', () => {
-                    color1 = color1 === 'red' ? 'green' : 'red';
-                    colorType = color1 === 'red' ? '緑色' : '赤色';
+                    color1 = (color1 === 'red') ? 'green' : 'red';
+                    colorType = (color1 === 'red') ? '緑色' : '赤色';
                     $('#content').css('color', color1);
                     $('#colorType').text(colorType);
                 })
