@@ -4,6 +4,8 @@
 
 ## Svelte の書き方
 
+ここでは jQury と Svelte で同じ機能を実装した。
+
 画面 (html/css) と動作 (js) は、
 
 jQuery では [/public/index.html](https://github.com/morimoto-hiroshi/svelte-hello/blob/main/public/index.html) に記述する。
