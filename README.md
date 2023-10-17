@@ -8,9 +8,9 @@
 
 画面 (html/css) と動作 (js) は、
 
-jQuery では [/public/index.html](https://github.com/morimoto-hiroshi/svelte-hello/blob/main/public/index.html) に記述する。
++ jQuery では [/public/index.html](https://github.com/morimoto-hiroshi/svelte-hello/blob/main/public/index.html) に記述する。
 
-Svelte では [/src/App.svelte](https://github.com/morimoto-hiroshi/svelte-hello/blob/main/src/App.svelte) に記述する。
++ Svelte では [/src/App.svelte](https://github.com/morimoto-hiroshi/svelte-hello/blob/main/src/App.svelte) に記述する。
 
 これがコンパイルされて /public/build/bundle.css, /public/build/bundle.js として配置され /public/index.html からインクルードされる。
 
