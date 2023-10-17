@@ -4,7 +4,7 @@
 
 ## Svelte の書き方
 
-ここでは jQury と Svelte で同じ機能を実装した。
+ここでは jQury と Svelte で同じ機能を実装した。（https://canvaspace.xyz/blog/301 を参考にしました）
 
 画面 (html/css) と動作 (js) は、
 

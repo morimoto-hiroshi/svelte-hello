@@ -11,7 +11,7 @@
     //-- part1 --
     let color = "red";
     const changeColor = (() => {
-        color = color === 'red' ? 'green' : 'red';
+        color = (color === 'red') ? 'green' : 'red';
     });
     //-- part2 --
     let isShowContent = true;
@@ -23,7 +23,7 @@
 <section class="sv-style">
     <h1>Svelteの場合</h1>
     <p style="color: {color}; font-size: 150%; font-weight: bold;">文字の色が変わります</p>
-    <button on:click="{changeColor}">文字を{color === 'red' ? '緑色' : '赤色'}にする。</button>
+    <button on:click="{changeColor}">文字を{(color === 'red') ? '緑色' : '赤色'}にする。</button>
 </section>
 <section class="sv-style">
     {#if isShowContent}
