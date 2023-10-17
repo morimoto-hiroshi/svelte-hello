@@ -1,6 +1,6 @@
 # svelte-hello
 
-+ Svelteを使ってみる、jQueryとの比較
++ Svelteの基本構造を理解する、jQueryとの比較
 
 ## ローカルディレクトリの構築メモ
 
