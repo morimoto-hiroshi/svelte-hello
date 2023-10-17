@@ -8,6 +8,7 @@
 ### svelte app のテンプレートをダウンロード
 
 この [Svelte](https://svelte.dev) アプリのテンプレートは https://github.com/sveltejs/template にある。（なお保守は終了している）
+
 テンプレートからのプロジェクト生成には [degit](https://github.com/Rich-Harris/degit) を用いる。
 
 ```
