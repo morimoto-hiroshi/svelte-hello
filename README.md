@@ -26,6 +26,8 @@ npm run dev
 [Rollup](https://rollupjs.org) でバンドルと実行がなされるという。
 [localhost:8080](http://localhost:8080) でアクセスする。
 
+<img src="doc/img/snap.jpeg" width="450">
+
 ### github アップロード
 
 + リモートリポジトリ作成
