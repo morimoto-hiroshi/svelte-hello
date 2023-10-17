@@ -2,8 +2,19 @@
 
 + Svelteの基本構造を理解する、jQueryとの比較
 
-## ローカルディレクトリの構築メモ
+## Svelte の書き方
 
+画面(html/css)と動作(js)は、
+
+jQuery では [/public/index.html](https://github.com/morimoto-hiroshi/svelte-hello/blob/main/public/index.html) に記述する。
+
+Svelte では [/src/App.svelte](https://github.com/morimoto-hiroshi/svelte-hello/blob/main/src/App.svelte) に記述する。
+
+これがコンパイルされて /public/bundle.css, /public/build/bundle.js として配置され /public/index.html からインクルードされる。
+
+<img src="doc/img/snap.png" width="450">
+
+## ローカルディレクトリの構築メモ
 
 ### svelte app のテンプレートをダウンロード
 
@@ -25,8 +36,6 @@ npm run dev
 
 [Rollup](https://rollupjs.org) でバンドルと実行がなされるという。
 [localhost:8080](http://localhost:8080) でアクセスする。
-
-<img src="doc/img/snap.png" width="450">
 
 ### github アップロード
 
